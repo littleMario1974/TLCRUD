@@ -23,9 +23,9 @@ public class UserController {
         List<User> users = new ArrayList<>();
         users.add(new User(1l));
         users.add(new User(2l));
-        users.add(new User(2l));
-        users.add(new User(3l, "kacper-warda", "kacper.warda@logintegra.com", true));
-        users.add(new User(4l, "karolina-warda", "karolina.warda@logintegra.com", true));
+        users.add(new User(3l));
+        users.add(new User(4l, "kacper-warda", "kacper.warda@logintegra.com", true));
+        users.add(new User(5l, "karolina-warda", "karolina.warda@logintegra.com", true));
         
         model.addAttribute("users", users);
         System.out.println(users);
